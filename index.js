@@ -1,3 +1,3 @@
 window.onload = function() {
-  document.getElementById('main-content').innerHTML = 'Github Pages Test\nSilence2540'
+  document.getElementById('main-content').innerHTML = 'Github Pages Test<br/>                 by Silence2540'
 }
