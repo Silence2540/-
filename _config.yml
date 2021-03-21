@@ -1,24 +1,29 @@
-#theme: jekyll-theme-slate
 # Site settings | 网站设置
-title: Silence 's Blog
-SEOTitle: Silence的博客
+title: RainbomSea
+SEOTitle: RainbomSea的博客 | RaimbomSea
 header-img: img/home-bg-he.png
-email: 2540267680@qq.com
-description: "Silence的博客"
-author: Silence
-language: Chinese
-keyword: "Silence, Silence的博客, Silence2540, silence, Python blog, blog"
-url: "http://Silence2540.github.io"
-baseurl: "/blog"
-github_repo: "https://github.com/Silence2540/Silence2540/blog"
+email: RainbomSea@qq.com
+description: "RainbomSea的博客"
+keyword: "RainbomSea, RainbomSea的博客, rainbom sea, rainbomsea, Python blog"
+url: "http://RainbomSea.github.io"          # your host, for absolute URL
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "https://github.com/RainbomSea/RainbomSea.github.io.git" #code repository | 代码仓库
+
 
 # Sidebar settings | 侧边栏设置
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "就算这样,也要笑着去努力啊!"
 sidebar-avatar: /img/head.jpg      # 头像
 
+
+
+
+
 # SNS settings | 社交网络设置
-github_username: Silence2540
+github_username: RainbomSea
+
+
+
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
@@ -30,9 +35,15 @@ anchorjs: true                          # if you want to customize anchor. check
 
 Regeneration: true    # 允许文件修改时自动重新生成网站。
 
+
+
+
+
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
 plugins: [jekyll-paginate]
+
+
 
 
 # Markdown settings
@@ -46,20 +57,20 @@ kramdown:
 
 # Gitalk
 gitalk:
-  enable: flase    # 是否开启Gitalk评论
-  # clientID: 99ecf1fdc9b7e357ebb7                            #生成的clientID
-  # clientSecret: 2670daea0c10372dd0296c371edc5ee4e73db43f    #生成的clientSecret
-  # repo: RainbomSea.github.io    #仓库名称
-  # owner: RainbomSea    # github用户名
-  # admin: RainbomSea
-  # distractionFreeMode: true # 是否启用类似FB的阴影遮罩
+  enable: true    # 是否开启Gitalk评论
+  clientID: 99ecf1fdc9b7e357ebb7                            #生成的clientID
+  clientSecret: 2670daea0c10372dd0296c371edc5ee4e73db43f    #生成的clientSecret
+  repo: RainbomSea.github.io    #仓库名称
+  owner: RainbomSea    # github用户名
+  admin: RainbomSea
+  distractionFreeMode: true # 是否启用类似FB的阴影遮罩
 
 
 # 统计
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: f935a89d2568a6d4dff968cf3e719553
+ba_track_id: 9acee03023ad0c6c993dd86df81e2ac8
 
 
 # Featured Tags
@@ -77,7 +88,7 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "GitHub·Silence2540",
-        href: "http://Silence2540.github.io"
+        title: "GitHub·RainbomSea",
+        href: "http://RainbomSea.github.io"
     }
 ]
